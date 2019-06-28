@@ -16,7 +16,7 @@ public class ChangeName : MonoBehaviour
         if(Input.GetKeyDown("space"))
         {
             TextMeshProUGUI textmeshPro = GetComponent<TextMeshProUGUI>();
-            textmeshPro.SetText("Hello World from Christian Mendoza");
+            textmeshPro.SetText("Hello World! My name is Christian Mendoza.");
         }
     }
 }
